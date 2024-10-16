@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Scraper</title>
+</head>
+<body>
+    <h1>Image Scraper</h1>
+    <form action="/scrape" method="post">
+        <label for="url">Enter URL:</label>
+        <input type="text" id="url" name="url" required><br><br>
+
+        <label for="keywords">Additional Keywords to Ignore (Optional):</label><br>
+        <textarea id="keywords" name="keywords" rows="4" cols="50" placeholder="Enter keywords here, one per line..."></textarea><br><br>
+
+        <button type="submit">Scrape Images</button>
+    </form>
+</body>
+</html>
