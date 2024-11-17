@@ -51,6 +51,7 @@ flask-image-scraper/    (folder)
 
  2. Open your web browser and go to the local server address (typically `http://127.0.0.1:5000`).
 
+ or click the link in the desc, it will take you to the website! ^_^
 ## Usage
 
  1. Enter the URL of the webpage you want to scrape in the input field.
